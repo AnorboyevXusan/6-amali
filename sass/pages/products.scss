@@ -46,7 +46,6 @@ main {
   border-radius: 4px;
   background: var(--main-surface, #fff);
 
-  /* Default/XS */
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
   position: relative;
   .card-like {
@@ -57,9 +56,6 @@ main {
     opacity: 0.5;
     background: var(--grayscale-lightest, #f3f2f1);
   }
-  svg {
-  }
-
   .card-body {
     padding: 8px;
   }
@@ -163,8 +159,6 @@ main {
   .page-link {
     color: var(--grayscale-hardest, #606060);
     text-align: center;
-
-    /* Desc/Text/S */
     font-family: Rubik;
     font-size: 16px;
     font-style: normal;
